@@ -12,7 +12,7 @@ const MathBasic = {
 
   subtract: (...args) => {
     if (args.length !== 2) {
-      throw new Error('fungsi subtractsubtract hanya menerima dua parameter')
+      throw new Error('fungsi subtract hanya menerima dua parameter')
     }
     const [a, b] = args
     if (typeof a !== 'number' || typeof b !== 'number') {
